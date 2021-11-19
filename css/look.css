@@ -1,0 +1,113 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.header {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	padding-top: 57px;
+	color: #fff;
+	padding-bottom: 322px;
+}
+
+header p {
+    color: white;
+}
+
+header a {
+	color: #fff;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+    color: white;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu {
+	display: flex;
+    margin-left: auto;
+    margin-top: 0px;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.menu li {
+	margin-right: 30px;
+}
+
+.tel {
+	font-size: 17px;
+	margin-left: 50px;
+	letter-spacing: 0.1em;
+    display: flex;
+}
+
+.btn {
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 238px;
+	transition: all 0.5s ease;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.btn:hover {
+	background: #fff;
+    color: #000;
+}
+
+.offer {
+	text-transform: uppercase;
+	margin-top: 216px;
+}
+.offer p, h1 {
+    margin-left: 10px;
+}
+
+.offer p {
+	font-size: 20px;
+	letter-spacing: 0.1em;
+}
+.container{
+    background-color: black;
+}
+
+.main {
+	text-align: center;
+}
+
+.container p, h1, h2, h3 {
+    color: white;
+}
+
